@@ -142,8 +142,72 @@ main {
 
 /* footer section starts here  */
 footer {
+  /* background-color: #dce9ff; */
   height: 27vh;
-  width: 980px;
+  max-width: 980px;
   margin: 0 auto;
+}
+.lan {
+  /* background-color: red; */
+  display: flex;
+  padding-top: 20px;
+  margin-left: -6px;
+}
+.lan a {
+  color: #8a8d91;
+  text-decoration: none;
+  padding: 0 5px;
+  font-size: 12px;
+}
+.lan a:hover {
+  text-decoration: underline;
+}
+.lan .more-lan {
+  background-color: #f5f6f7;
+  border: 1px solid #a1a1a1;
+  color: #666666;
+  padding: 0 10px;
+  border-radius: 3px;
+  margin-left: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  transition: all 0.1s linear;
+}
+.lan .more-lan:hover {
+  background-color: #ececec;
+  text-decoration: none;
+}
+
+footer hr {
+  background-color: #dddfe2;
+  border: none;
+  height: 1px;
+  margin: 8px 0;
+}
+.policy {
+  margin-left: -10px;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.policy a {
+  /* background-color: blanchedalmond; */
+  color: #8a8d91;
+  font-size: 12px;
+  margin: 10px;
+  padding-right: 2px;
+  text-decoration: none;
+  line-height: 1.6;
+}
+.policy a:hover {
+  /* background-color: blanchedalmond; */
+  text-decoration: underline;
+}
+footer p {
+  /* background-color: red; */
+  color: #8a8d91;
+  font-size: 11px;
+  margin-top: 20px;
 }
 /* footer section ends here  */
